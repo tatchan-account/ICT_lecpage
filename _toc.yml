@@ -1,0 +1,28 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: はじめに
+    numbered: True
+    chapters:
+      - file : usage
+  - caption: ベクトル
+    numbered: True
+    chapters:
+      - file : ch_vector/commingsoon
+  - caption: 複素数平面
+    numbered: True
+    chapters:
+      - file : ch_complex/commingsoon
+  - caption: 平面上の曲線
+    numbered: True
+    chapters:
+      - file : ch_curves/regression
+      - file : ch_curves/parameterised
+      - file : ch_curves/commingsoon
+  - caption: 応用
+    numbered: True
+    chapters:
+      - file : ch_kufu/commingsoon
