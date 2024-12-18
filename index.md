@@ -55,3 +55,6 @@
 ## 目次
 ```{tableofcontents}
 ```
+
+## 関連情報
+- [課題学習のスライド](https://github.com/tatchan-account/math_mogi/blob/01c5aab9af0cd3e78447558f0aa0385b94a7bf86/main.pdf)
