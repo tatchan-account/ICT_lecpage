@@ -5,7 +5,7 @@ title: 数Cサポートページ
 author: S. Sasaki, T. Hashimoto
 logo: logo_rev.png
 copyright: "2024-2025 by S.Sasaki, T.Hashimoto"
-exclude_patterns: [_build, materials, pdf, info.md, .DS_Store, "**.ipynb_checkpoints"]
+exclude_patterns: [_build, material,README.md, .DS_Store, "**.ipynb_checkpoints"]
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html

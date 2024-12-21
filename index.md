@@ -41,16 +41,20 @@
 特に本ページには次のような特徴があります。
 - ページを開くだけで図表が表示される
 - ページに書かれている図表が、自分自身でも実行可能
-    - Google Colaboratory[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chokkan/mlnote/blob/main/)などを知いて、このページで示されているプログラムを自分自身で実行可能
-    - ページのプログラムを自由に変更して実行可能
-- 演習問題では、手を動かして計算するだけでなく、自分自身で書き足して実行可能
+    - Google Colaboratory[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tatchan-account/ICT_lecpage/blob/main/)などを知いて、このページで示されているプログラムを自分自身で実行可能
+    - ページのプログラムを自由に変更しての実行も可能
+- 演習問題では、手を動かして計算する問題だけでなく、自分自身でプログラムを書き足して実行するものも出題
 - プログラミングに抵抗がある人でも使いこなせるような、丁寧な説明と十分に用意されたコード
 
 ## このページの使い方
 このページの使い方についての詳細は、[こちら](usage.md)をご覧ください。
 
 ## 更新情報
+- 2024/12/21 A section was added.
 - 2024/12/18 This page was published.
+
+## 試験について
+試験については[ここ](http://www.et.hum.titech.ac.jp/matsuda/test.html)や[ここ](http://www.et.hum.titech.ac.jp/matsuda/test.html)を参照してください。
 
 ## 目次
 ```{tableofcontents}

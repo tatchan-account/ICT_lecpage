@@ -19,9 +19,8 @@ parts:
   - caption: 平面上の曲線
     numbered: True
     chapters:
-      - file : ch_curves/polar_equation
       - file : ch_curves/parameterised
-      - file : ch_curves/regression
+      - file : ch_curves/polar_equation
       - file : ch_curves/commingsoon
   - caption: 応用
     numbered: True
