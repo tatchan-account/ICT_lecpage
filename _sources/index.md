@@ -50,11 +50,13 @@
 このページの使い方についての詳細は、[こちら](usage.md)をご覧ください。
 
 ## 更新情報
-- 2024/12/21 A section was added.
+- 2025/1/5 A section was completed.
+- 2024/12/23 A section in the page was newly added.
+- 2024/12/21 A page was added.
 - 2024/12/18 This page was published.
 
 ## 試験について
-試験については[ここ](http://www.et.hum.titech.ac.jp/matsuda/test.html)や[ここ](http://www.et.hum.titech.ac.jp/matsuda/test.html)を参照してください。
+試験については[ここ](README.md)や[ここ](README.md)を参照してください。
 
 ## 目次
 ```{tableofcontents}

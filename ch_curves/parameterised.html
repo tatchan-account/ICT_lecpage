@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>4. パラメータ表示された曲線 &#8212; 数Cサポートページ</title>
+    <title>5. パラメータ表示された曲線 &#8212; 数Cサポートページ</title>
   
   
   
@@ -66,8 +66,8 @@
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="5. 極座標と極方程式" href="polar_equation.html" />
-    <link rel="prev" title="3. 複素数平面" href="../ch_complex/commingsoon.html" />
+    <link rel="next" title="6. 極座標と極方程式" href="polar_equation.html" />
+    <link rel="prev" title="4. その他の章" href="../ch_complex/commingsoon.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -181,17 +181,18 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">複素数平面</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../ch_complex/commingsoon.html">3. 複素数平面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch_complex/intro.html">3. 複素数平面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch_complex/commingsoon.html">4. その他の章</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">平面上の曲線</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">4. パラメータ表示された曲線</a></li>
-<li class="toctree-l1"><a class="reference internal" href="polar_equation.html">5. 極座標と極方程式</a></li>
-<li class="toctree-l1"><a class="reference internal" href="commingsoon.html">6. 弧長パラメータ</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">5. パラメータ表示された曲線</a></li>
+<li class="toctree-l1"><a class="reference internal" href="polar_equation.html">6. 極座標と極方程式</a></li>
+<li class="toctree-l1"><a class="reference internal" href="commingsoon.html">7. 弧長パラメータ</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">応用</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../ch_kufu/commingsoon.html">7. 数学上の表現の工夫</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch_kufu/commingsoon.html">8. 数学上の表現の工夫</a></li>
 </ul>
 
     </div>
@@ -446,9 +447,9 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">4.1. 曲線のパラメータ表示</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">4.2. パラメータ表示された曲線の例</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">4.2.1. アステロイド</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">5.1. 曲線のパラメータ表示</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">5.2. パラメータ表示された曲線の例</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">5.2.1. アステロイド</a></li>
 </ul>
 </li>
 </ul>
@@ -463,17 +464,17 @@
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
-<h1><span class="section-number">4. </span>パラメータ表示された曲線<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<h1><span class="section-number">5. </span>パラメータ表示された曲線<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
 <section id="id2">
-<h2><span class="section-number">4.1. </span>曲線のパラメータ表示<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">5.1. </span>曲線のパラメータ表示<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
 <p>今までは方程式で表される図形の形を見てきました。たとえば、</p>
 <div class="admonition- admonition">
 <p class="admonition-title">定義／曲線のパラメータ表示</p>
 <p>平面上を動く点を考え、その時刻<span class="math notranslate nohighlight">\(t\)</span>における点の座標を<span class="math notranslate nohighlight">\((x(t),y(t))\)</span>としたときに、この動点の軌跡で表される曲線を<strong>パラメータ表示された曲線</strong>という。</p>
 </div>
 <p>実際に例を見てみよう。まず、半径<span class="math notranslate nohighlight">\(r\)</span>の円のパラメータ表示は</p>
-<div class="amsmath math notranslate nohighlight" id="equation-8c805e1b-4c56-4133-b17b-1cff498ebe0e">
-<span class="eqno">(4.1)<a class="headerlink" href="#equation-8c805e1b-4c56-4133-b17b-1cff498ebe0e" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-04330447-2d4f-446b-b29c-2a6531f48537">
+<span class="eqno">(5.1)<a class="headerlink" href="#equation-04330447-2d4f-446b-b29c-2a6531f48537" title="Permalink to this equation">#</a></span>\[\begin{equation}
     \begin{pmatrix}
             x \\ y
         \end{pmatrix}
@@ -485,8 +486,8 @@
         \end{pmatrix}
 \end{equation}\]</div>
 <p>になります。さらに、楕円については、その横の比率を与える変数を与えれば良いので、</p>
-<div class="amsmath math notranslate nohighlight" id="equation-dc02632c-4c52-4df5-8764-7dc7d1e2c93b">
-<span class="eqno">(4.2)<a class="headerlink" href="#equation-dc02632c-4c52-4df5-8764-7dc7d1e2c93b" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-cf88980b-b64b-4b9b-85d4-cd8e6df7a643">
+<span class="eqno">(5.2)<a class="headerlink" href="#equation-cf88980b-b64b-4b9b-85d4-cd8e6df7a643" title="Permalink to this equation">#</a></span>\[\begin{equation}
 \begin{pmatrix}
         x \\ y
     \end{pmatrix}
@@ -554,12 +555,12 @@
 </div>
 </section>
 <section id="id3">
-<h2><span class="section-number">4.2. </span>パラメータ表示された曲線の例<a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">5.2. </span>パラメータ表示された曲線の例<a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
 <section id="id4">
-<h3><span class="section-number">4.2.1. </span>アステロイド<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
+<h3><span class="section-number">5.2.1. </span>アステロイド<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
 <p>アステロイドは半径<span class="math notranslate nohighlight">\(a\)</span>の円<span class="math notranslate nohighlight">\(C_1\)</span>に、内接する半径<span class="math notranslate nohighlight">\(b\)</span>の中心の軌跡である。パラメータ表示すると、</p>
-<div class="amsmath math notranslate nohighlight" id="equation-48abc46a-eb3d-4497-969f-e53f885d0c55">
-<span class="eqno">(4.3)<a class="headerlink" href="#equation-48abc46a-eb3d-4497-969f-e53f885d0c55" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-a8dcb819-f3db-45af-8c6a-f22b9d10aadf">
+<span class="eqno">(5.3)<a class="headerlink" href="#equation-a8dcb819-f3db-45af-8c6a-f22b9d10aadf" title="Permalink to this equation">#</a></span>\[\begin{equation}
     \begin{pmatrix}
         x \\ y
     \end{pmatrix}
@@ -663,7 +664,7 @@
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">3. </span>複素数平面</p>
+        <p class="prev-next-title"><span class="section-number">4. </span>その他の章</p>
       </div>
     </a>
     <a class="right-next"
@@ -671,7 +672,7 @@
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">5. </span>極座標と極方程式</p>
+        <p class="prev-next-title"><span class="section-number">6. </span>極座標と極方程式</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -692,9 +693,9 @@
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">4.1. 曲線のパラメータ表示</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">4.2. パラメータ表示された曲線の例</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">4.2.1. アステロイド</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">5.1. 曲線のパラメータ表示</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">5.2. パラメータ表示された曲線の例</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">5.2.1. アステロイド</a></li>
 </ul>
 </li>
 </ul>
