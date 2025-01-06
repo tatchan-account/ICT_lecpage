@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -193,6 +193,10 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">応用</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../ch_kufu/commingsoon.html">8. 数学上の表現の工夫</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">参考</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../reference.html">参考文献・記号</a></li>
 </ul>
 
     </div>
@@ -473,8 +477,8 @@
 <p>平面上を動く点を考え、その時刻<span class="math notranslate nohighlight">\(t\)</span>における点の座標を<span class="math notranslate nohighlight">\((x(t),y(t))\)</span>としたときに、この動点の軌跡で表される曲線を<strong>パラメータ表示された曲線</strong>という。</p>
 </div>
 <p>実際に例を見てみよう。まず、半径<span class="math notranslate nohighlight">\(r\)</span>の円のパラメータ表示は</p>
-<div class="amsmath math notranslate nohighlight" id="equation-04330447-2d4f-446b-b29c-2a6531f48537">
-<span class="eqno">(5.1)<a class="headerlink" href="#equation-04330447-2d4f-446b-b29c-2a6531f48537" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-e0c72ba0-1c89-4789-9625-ce9b8612400a">
+<span class="eqno">(5.1)<a class="headerlink" href="#equation-e0c72ba0-1c89-4789-9625-ce9b8612400a" title="Permalink to this equation">#</a></span>\[\begin{equation}
     \begin{pmatrix}
             x \\ y
         \end{pmatrix}
@@ -486,8 +490,8 @@
         \end{pmatrix}
 \end{equation}\]</div>
 <p>になります。さらに、楕円については、その横の比率を与える変数を与えれば良いので、</p>
-<div class="amsmath math notranslate nohighlight" id="equation-cf88980b-b64b-4b9b-85d4-cd8e6df7a643">
-<span class="eqno">(5.2)<a class="headerlink" href="#equation-cf88980b-b64b-4b9b-85d4-cd8e6df7a643" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-7fb5c8e7-3a39-4109-9490-b36ea603c19d">
+<span class="eqno">(5.2)<a class="headerlink" href="#equation-7fb5c8e7-3a39-4109-9490-b36ea603c19d" title="Permalink to this equation">#</a></span>\[\begin{equation}
 \begin{pmatrix}
         x \\ y
     \end{pmatrix}
@@ -559,8 +563,8 @@
 <section id="id4">
 <h3><span class="section-number">5.2.1. </span>アステロイド<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
 <p>アステロイドは半径<span class="math notranslate nohighlight">\(a\)</span>の円<span class="math notranslate nohighlight">\(C_1\)</span>に、内接する半径<span class="math notranslate nohighlight">\(b\)</span>の中心の軌跡である。パラメータ表示すると、</p>
-<div class="amsmath math notranslate nohighlight" id="equation-a8dcb819-f3db-45af-8c6a-f22b9d10aadf">
-<span class="eqno">(5.3)<a class="headerlink" href="#equation-a8dcb819-f3db-45af-8c6a-f22b9d10aadf" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-ac579c44-c1c1-426e-ad21-9c1c293358d9">
+<span class="eqno">(5.3)<a class="headerlink" href="#equation-ac579c44-c1c1-426e-ad21-9c1c293358d9" title="Permalink to this equation">#</a></span>\[\begin{equation}
     \begin{pmatrix}
         x \\ y
     \end{pmatrix}
@@ -571,59 +575,6 @@
     \end{pmatrix}
 \end{equation}\]</div>
 <p>になります。</p>
-<div class="cell tag_input-hidden docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># following code cannot be executable</span>
-<span class="c1">## 外周円の半径</span>
-<span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">a_outer = 3</span>
-
-<span class="sd">def ast(t):</span>
-<span class="sd">  return a_outer * (np.cos(t)) ** 3, a_outer * (np.sin(t)) ** 3</span>
-
-<span class="sd">def draw_step(h, ax, eta):</span>
-<span class="sd">    artist = []</span>
-<span class="sd">    xt, yt, gt = h[&#39;x&#39;], h[&#39;fx&#39;], h[&#39;gx&#39;]</span>
-<span class="sd">    y0 = yt - xt * gt</span>
-<span class="sd">    y10 = (10 - xt) * gt + yt</span>
-
-<span class="sd">    lines = [</span>
-<span class="sd">        [(0, y0), (10, y10)],</span>
-<span class="sd">        [(xt, yt), (xt - gt * eta, yt)]</span>
-<span class="sd">    ]</span>
-<span class="sd">    lc = matplotlib.collections.LineCollection(lines, color=[&#39;b&#39;, &#39;g&#39;], lw=1)</span>
-<span class="sd">    artist.append(plt.gca().add_collection(lc))</span>
-<span class="sd">    artist.append(plt.vlines([xt], 0, 10, &quot;red&quot;, linestyles=&#39;dashed&#39;, label=r&quot;$x$&quot;))</span>
-<span class="sd">    artist.extend(ax.plot([xt], [yt], &#39;ro&#39;))</span>
-<span class="sd">    artist.append(ax.text(xt - gt * eta * 0.5, yt + 0.3, &quot;${:.5f}$&quot;.format(gt * eta), ha=&#39;center&#39;))</span>
-<span class="sd">    artist.append(ax.text(xt + 0.2, yt - 0.5, str(xt)))</span>
-<span class="sd">    return artist</span>
-
-
-<span class="sd">t = np.linspace(0, 2*np.pi, 1000)</span>
-
-<span class="sd">fig, ax = plt.subplots(dpi=100, figsize=(6, 6))</span>
-<span class="sd">ax.plot(x, f(x), &#39;black&#39;)</span>
-<span class="sd">ax.set_xlabel(&#39;$x$&#39;)</span>
-<span class="sd">ax.set_ylabel(&#39;$y$&#39;)</span>
-<span class="sd">ax.set_xlim(0, 10)</span>
-<span class="sd">ax.set_ylim(0, 10)</span>
-<span class="sd">ax.set_aspect(&#39;equal&#39;)</span>
-<span class="sd">ax.grid()</span>
-
-<span class="sd">artists = []</span>
-<span class="sd">for h in H:</span>
-<span class="sd">    artists.append(draw_step(h, ax, eta=0.5))</span>
-
-<span class="sd">ani = matplotlib.animation.ArtistAnimation(fig, artists, interval=500)</span>
-<span class="sd">html = ani.to_jshtml()</span>
-<span class="sd">plt.close(fig)</span>
-<span class="sd">HTML(html)</span>
-<span class="sd">&quot;&quot;&quot;</span>
-</pre></div>
-</div>
-</div>
-</div>
 </section>
 </section>
 </section>

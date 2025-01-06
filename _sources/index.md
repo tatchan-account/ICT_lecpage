@@ -4,8 +4,11 @@
 このサポートページは、授業を**視覚的に**理解することをサポートするページです。
 また、発展的に**情報学**と関連づけて学習する人に向けて、グラフや表・アニメーションの表示に使用したコードを公開しています。
 
-## 授業内容
+## 目次
+```{tableofcontents}
+```
 
+## 授業内容
 ::::{grid} 2
 :gutter: 2
 
@@ -41,8 +44,11 @@
 特に本ページには次のような特徴があります。
 - ページを開くだけで図表が表示される
 - ページに書かれている図表が、自分自身でも実行可能
-    - Google Colaboratory[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tatchan-account/ICT_lecpage/blob/main/)などを知いて、このページで示されているプログラムを自分自身で実行可能
-    - ページのプログラムを自由に変更しての実行も可能
+    - ![badge](https://img.shields.io/badge/%E2%96%B6%EF%B8%8F-Live_Code-green?style=flat
+    ) ／ このページ上でコードを実行できるサービス
+    - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tatchan-account/ICT_lecpage/blob/main/) ／ Googleのプログラム実行環境
+    - [![badge](https://img.shields.io/badge/launch-binder-579ACA.svg?logo=data:image/png;base64,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)](https://mybinder.org/v2/gh/tatchan-account/ICT_lecpage/main)／クラウドで実行環境を無償提供しているサービス
+- ページのプログラムを**自由に変更して実行可能**
 - 演習問題では、手を動かして計算する問題だけでなく、自分自身でプログラムを書き足して実行するものも出題
 - プログラミングに抵抗がある人でも使いこなせるような、丁寧な説明と十分に用意されたコード
 
@@ -56,11 +62,13 @@
 - 2024/12/18 This page was published.
 
 ## 試験について
-試験については[ここ](README.md)や[ここ](README.md)を参照してください。
+試験については[ここ](https://sites.google.com/view/highschool3-chemistryforsouken/%E9%AB%983%E5%8C%96%E5%AD%A6)や[ここ](https://sites.google.com/view/highschool3-chemistryforsouken/%E9%81%8E%E5%8E%BB%E5%95%8F%E8%A7%A3%E7%AD%94)を参照してください。
 
-## 目次
-```{tableofcontents}
-```
+## 間違い・訂正・不具合
+このサポートページに関する間違いや誤植、不具合の報告は[こちら](https://github.com/tatchan-account/ICT_lecpage/issues)までお願いします。
 
 ## 関連情報
 - [課題学習のスライド](https://github.com/tatchan-account/math_mogi/blob/01c5aab9af0cd3e78447558f0aa0385b94a7bf86/main.pdf)
+
+## オープンソース
+本ページはプログラム部分は[MITライセンス](https://opensource.org/license/MIT)に基づくオープンソースの教材です。
