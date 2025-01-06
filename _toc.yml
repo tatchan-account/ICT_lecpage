@@ -27,3 +27,7 @@ parts:
     numbered: True
     chapters:
       - file : ch_kufu/commingsoon
+  - caption: 参考
+    numbered: False
+    chapters:
+      - file : reference
