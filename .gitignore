@@ -1,0 +1,13 @@
+# material folder is not used
+material/
+markdown*.md
+
+# code ignore
+__pycache__/
+*.py[cod]
+*$py.class
+a.out
+
+*.log
+
+_build/

@@ -24,6 +24,7 @@
 This is the content inside the admonition box.
 ```
 
-```{admonition} 重要
+````{admonition} 重要
 重要箇所はちゃんとできているかな？そしてネストできているかな？
-```
+```{}
+````
