@@ -22,6 +22,7 @@ parts:
     chapters:
       - file : ch_curves/parameterised
       - file : ch_curves/polar_equation
+      - file : ch_curves/polar_equation_ans
       - file : ch_curves/commingsoon
   - caption: 応用
     numbered: True
